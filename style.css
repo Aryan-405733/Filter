@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height:2000vh;
+    color: black;
+
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #userForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .field {
+    /* background-color: red; */
+    width: 90%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filter-container {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #userData {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid black;
+  }
+  
+  #Submit{
+    background-color: blue;
+    color: white;
+    
+  }
